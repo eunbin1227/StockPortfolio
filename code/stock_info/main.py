@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
     print(result)
 
-    f = open('../output/kospi_200.csv', 'w')
+    f = open('../../output/kospi_200.csv', 'w')
     f.write("종목코드,종목명,현재가,베타계수,60일전가격,변동성,수익률\n")
     for i in result:
         for j in range(len(i)-1):
